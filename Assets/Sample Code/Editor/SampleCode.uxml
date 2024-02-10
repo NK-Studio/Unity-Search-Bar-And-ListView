@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="Layout" style="align-self: stretch; justify-content: flex-start; flex-grow: 1; flex-direction: flex-start; margin-right: 16px; margin-top: 4px;">
+        <uie:ToolbarSearchField name="search" style="width: 100%;" />
+        <ui:ListView virtualization-method="DynamicHeight" show-border="true" show-foldout-header="true" show-add-remove-footer="true" header-title="Person" reorder-mode="Animated" name="ItemList" reorderable="true" />
+        <ui:Button text="리스트 채우기 테스트" name="TestButton" />
+    </ui:VisualElement>
+</ui:UXML>
